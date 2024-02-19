@@ -46,7 +46,7 @@ body {
 #home-banner img {
     position: relative;
     z-index: 1;
-    max-width: 66vw;
+    max-width: 90%;
 }
 
 /* HOME PAGE CARDS */
@@ -96,3 +96,14 @@ body {
     list-style-type: none;
 }
 
+.about-img {
+    max-width: 100%;
+    max-height: auto !important;
+}
+
+
+/* FOOTER */
+
+.footer-logo {
+    max-height: 80px;
+}
