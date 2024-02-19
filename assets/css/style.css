@@ -1,3 +1,12 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    
+}
+
 .navbar {
     position: absolute;
     width: 100%;
@@ -7,8 +16,10 @@
 
 .navbar-brand img {
     width: 25%;
-    max-height: 20rem;
+    /* max-height: 20rem; */
     margin-right: 10px;
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
 }
 
 #home-banner {
@@ -35,6 +46,7 @@
 #home-banner img {
     position: relative;
     z-index: 1;
+    max-width: 66vw;
 }
 
 /* HOME PAGE CARDS */
@@ -78,5 +90,9 @@
     max-height: 75px;
     display: block; /* Ensures that the margin auto works correctly */
     margin: auto; /* Center the logo horizontally */
+}
+
+.service-list {
+    list-style-type: none;
 }
 
