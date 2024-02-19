@@ -55,4 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         return logoElement;
     }
+
+
+    
 });

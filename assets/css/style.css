@@ -102,6 +102,13 @@ body {
 }
 
 
+.navbar-home.opaque-background {
+    background-color: #333333; /* Change to your desired color */
+}
+
+
+
+
 /* FOOTER */
 
 .footer-logo {
