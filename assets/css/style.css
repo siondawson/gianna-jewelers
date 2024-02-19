@@ -5,6 +5,12 @@
     transition: background-color 0.5s ease;
 }
 
+.navbar-brand img {
+    width: 25%;
+    max-height: 20rem;
+    margin-right: 10px;
+}
+
 #home-banner {
     background-image: url('/assets/images/diamond-ring.jpg');
     background-size: cover;
