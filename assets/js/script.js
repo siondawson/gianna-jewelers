@@ -30,8 +30,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const card = document.createElement("div");
         card.classList.add("col-12", "col-md-6", "col-lg-4", "mb-4");
 
+        // Check if a link is provided in the JSON data
+        const cardLink = product.link ? `href="${product.link}"` : 'href="#"';
+
         card.innerHTML = `
-            <a href="#" class="card-link">
+            <a ${cardLink} class="card-link">
                 <div class="card">
                     <img src="${product.image}" class="card-img-top" alt="${product.title}">
                     <div class="card-body">
@@ -55,7 +58,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
         return logoElement;
     }
-
-
-    
 });
