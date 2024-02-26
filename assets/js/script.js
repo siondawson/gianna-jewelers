@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return card;
     }
 
-    // Function to create a brand logo
+    // Function to create a brand logo. logos on bottom of home screen about footer.
     function createLogo(logo) {
         const logoElement = document.createElement("div");
         logoElement.classList.add("col-6", "col-md-3", "mb-4", "text-center");
