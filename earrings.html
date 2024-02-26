@@ -38,7 +38,7 @@
                             <a class="dropdown-item" href="#">Wedding Bands</a>
                             <a class="dropdown-item" href="#">Necklaces</a>
                             <a class="dropdown-item" href="#">Fashion Rings</a>
-                            <a class="dropdown-item" href="earrings.html">Earrings</a>
+                            <a class="dropdown-item" href="#">Earrings</a>
                         </div>
                     </li>
 
@@ -59,58 +59,54 @@
     </div>
     <!-- END NAVBAR -->
     <main>
-        <!-- PRODUCTS -->
-        <section>
-            <div class="container">
-                    <!-- Product Cards Container -->
-                <div class="row mt-4" id="product-cards-container">
-                    <!-- Product cards will be dynamically added here -->
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center pb-5">Earrings</h2>
                 </div>
             </div>
-        </section>
-        <!-- ABOUT -->
-        <section class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
-                        <img src="assets/images/old-website/johnwcustomer.jpeg" alt="" class="img-fluid mx-auto about-img">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3>About Us</h3>
-                        <p>
-                            The foundation of GIANNA JEWELERS is Service. GIANNA JEWELERS continues to set the standard for 
-                            quality and service to all our valued customers. Our staff can accommodate every request whether 
-                            it is a simple jewelry repair or a custom designed piece made especially for you. Our certified 
-                            Watchmaker can provide our customers with superior service and reliability. Big or small, 
-                            simple or complex, we provide the same level of care, expertise and courtesy to all.
-                        </p>
-                        <a href="" class="btn btn-primary">Learn More</a>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>
+                        TEXT ABOUT EARRINGS Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id accusantium adipisci ad earum 
+                        quaerat est amet delectus? Animi aspernatur repellat ullam odit blanditiis, voluptate ad 
+                        libero provident magni. Quam, non!
+                    </p>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-12">
-                        <h3>Services</h3>
-                        <ul class="service-list text-secondary display-6">
-                            <li><i class="fa-solid fa-screwdriver-wrench"></i> Repair & Maintenance</li>
-                            <li><i class="fa-solid fa-pencil"></i> Custom Design</li>
-                            <li><i class="fa-solid fa-gem"> Remounting</i></li>
-                        </ul>
-                        
-                    </div>
-                </div> -->
             </div>
-        </section>
-        
-        <!-- BRANDS -->
-        <section>
-            <!-- Brand Logos Container -->
-            <div class="container"> 
-                <div class="row mt-4" id="brand-logos-container">
-                    <!-- Brand logos will be dynamically added here -->
-                </div>
-            </div>   
-        </section>
-        
+        </div>
+        <!-- CAROUSEL MEDIUM SCREENS AND UP -->
+        <div class="container d-none d-md-block py-5">
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="carouselInner">
+                <!-- Carousel items will be dynamically added here -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- CAROUSEL SMALL SCREENS -->
+          <div class="container d-sm-block d-md-none py-5">
+            <div id="imageCarouselSmall" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="carouselInnerSmall">
+                <!-- Carousel items will be dynamically added here -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselSmall" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselSmall" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
     </main>
 
     <footer class="text-white text-center text-lg-start bg-dark">
@@ -157,6 +153,35 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Fetch JSON data and dynamically generate carousel items
+        fetch('assets/json/earrings.json')
+          .then(response => response.json())
+          .then(data => {
+            // For medium and larger screens
+            var carouselInner = document.getElementById('carouselInner');
+            data.forEach(function(item, index) {
+              if (index % 3 === 0) {
+                var carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                carouselItem.innerHTML = '<div class="row"></div>';
+                carouselInner.appendChild(carouselItem);
+              }
+              var currentRow = carouselInner.lastElementChild.querySelector('.row');
+              currentRow.innerHTML += '<div class="col-md-4"><img src="assets/images/earrings/' + item.image + '" class="d-block w-100" alt="' + item.alt + '"></div>';
+            });
+      
+            // For small screens
+            var carouselInnerSmall = document.getElementById('carouselInnerSmall');
+            data.forEach(function(item, index) {
+              var carouselItem = document.createElement('div');
+              carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+              carouselItem.innerHTML = '<img src="assets/images/earrings/' + item.image + '" class="d-block w-100" alt="' + item.alt + '">';
+              carouselInnerSmall.appendChild(carouselItem);
+            });
+          })
+          .catch(error => console.error('Error fetching JSON:', error));
+      </script>
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/opaque-bg.js"></script>
