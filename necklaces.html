@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gianna Jewelers</title>
+    <script src="https://kit.fontawesome.com/ff2fe9fdbb.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-home">
+        <div class="container-fluid">
+            <!-- Logo and Brand -->
+            <div class="navbar-brand d-flex align-items-center">
+                <a href="index.html">
+                    <img src="assets/images/gj-logo/gj-logo-initials.png" alt="Gianna Jewelers Logo" class="img-fluid">
+                </a>
+            </div>
+
+            <!-- Navbar Toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                    <!-- Products Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="marriageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Jewelry
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="marriageDropdown">
+                            <a class="dropdown-item" href="#">Watches</a>
+                            <a class="dropdown-item" href="#">Engagement Rings</a>
+                            <a class="dropdown-item" href="#">Wedding Bands</a>
+                            <a class="dropdown-item" href="#">Necklaces</a>
+                            <a class="dropdown-item" href="#">Fashion Rings</a>
+                            <a class="dropdown-item" href="#">Earrings</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Buyers Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner img and big logo -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-center" id="home-banner">
+                <img src="assets/images/gj-logo/gj-logo-long.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+    <main>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center pb-5">Necklaces</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>
+                        TEXT ABOUT NECKLACES Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id accusantium adipisci ad earum 
+                        quaerat est amet delectus? Animi aspernatur repellat ullam odit blanditiis, voluptate ad 
+                        libero provident magni. Quam, non!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- CAROUSEL MEDIUM SCREENS AND UP -->
+        <div class="container d-none d-md-block py-5">
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="carouselInner">
+                <!-- Carousel items will be dynamically added here -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- CAROUSEL SMALL SCREENS -->
+          <div class="container d-sm-block d-md-none py-5">
+            <div id="imageCarouselSmall" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="carouselInnerSmall">
+                <!-- Carousel items will be dynamically added here -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselSmall" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselSmall" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+    </main>
+
+    <footer class="text-white text-center text-lg-start bg-dark">
+      <div class="container p-4">
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <img class="footer-logo" src="assets/images/gj-logo/gj-logo-initials.png" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <p><i class="fas fa-map-marker-alt"></i> 15201 Detroit Ave <br> Lakewood, Ohio <br> 44107</p>
+              </li>
+              <li class="mb-3">
+                <p><i class="fas fa-envelope"></i> info@giannajewelers.com</p>
+              </li>
+              <li class="mb-3">
+                <p><i class="fas fa-phone"></i> 216-767-5700</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Store Hours</h5>
+            <p>
+                Tuesday - Friday: 12pm-7pm
+                <br>
+                Saturday: By Appointment Only
+            </p>
+            <p></p>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <p class="copyright">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Geauga Web Solutions
+        </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+    
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Fetch JSON data and dynamically generate carousel items
+        fetch('assets/json/necklaces.json')
+          .then(response => response.json())
+          .then(data => {
+            // For medium and larger screens
+            var carouselInner = document.getElementById('carouselInner');
+            data.forEach(function(item, index) {
+              if (index % 3 === 0) {
+                var carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                carouselItem.innerHTML = '<div class="row"></div>';
+                carouselInner.appendChild(carouselItem);
+              }
+              var currentRow = carouselInner.lastElementChild.querySelector('.row');
+              currentRow.innerHTML += '<div class="col-md-4"><img src="assets/images/necklaces/' + item.image + '" class="d-block w-100" alt="' + item.alt + '"></div>';
+            });
+      
+            // For small screens
+            var carouselInnerSmall = document.getElementById('carouselInnerSmall');
+            data.forEach(function(item, index) {
+              var carouselItem = document.createElement('div');
+              carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+              carouselItem.innerHTML = '<img src="assets/images/earrings/' + item.image + '" class="d-block w-100" alt="' + item.alt + '">';
+              carouselInnerSmall.appendChild(carouselItem);
+            });
+          })
+          .catch(error => console.error('Error fetching JSON:', error));
+      </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/opaque-bg.js"></script>
+</body>
+</html>

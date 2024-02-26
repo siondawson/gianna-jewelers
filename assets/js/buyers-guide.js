@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.classList.add("card", "mb-4");
 
         card.innerHTML = `
-            <div class="row g-0">
+            <div class="row">
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <img src="${cardData.imageSrc}" class="img-fluid buyers-guide-card-img" alt="${cardData.title}">
                 </div>
