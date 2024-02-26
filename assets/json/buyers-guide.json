@@ -1,0 +1,29 @@
+[
+    {
+      "title": "Carat",
+      "imageSrc": "assets/images/buyers-guide/diamond.png",
+      "text": "Diamonds and other gemstones are weighed in metric carats: one carat is equal to 0.2 grams, about the same weight as a paperclip. (Don’t confuse carat with karat, as in “18K gold,” which refers to gold purity.) Just as a dollar is divided into 100 pennies, a carat is divided into 100 points. For example, a 50-point diamond weighs 0.50 carats. But two diamonds of equal weight can have very different values depending on the other members of the Four C’s: clarity, color and cut. The majority of diamonds used in fine jewelry weigh one carat or less.",
+      "chartSrc": "assets/images/buyers-guide/carat-chart.jpeg"
+    },
+    {
+      "title": "Color",
+      "imageSrc": "assets/images/buyers-guide/diamond.png",
+      "text": "Diamond color is all about what you can’t see. Diamonds are valued by how closely they approach colorlessness – the less color, the higher their value. (The exception to this is fancy-color diamonds, such as pinks and blues, which lie outside this color range.) Most diamonds found in jewelry stores run from colorless to near-colorless, with slight hints of yellow or brown. <br><br> GIA’s color-grading scale for diamonds is the industry standard. The scale begins with the letter D, representing colorless, and continues with increasing presence of color to the letter Z, or near-colorless. ",
+      "chartSrc": "assets/images/buyers-guide/color-chart.jpeg"
+    },
+    {
+        "title": "Clarity",
+        "imageSrc": "assets/images/buyers-guide/diamond.png",
+        "text": "Because diamonds formed deep within the earth, under extreme heat and pressure, they often contain unique birthmarks, either internal (inclusions) or external (blemishes). Diamond clarity refers to the absence of these inclusions and blemishes. Diamonds without these birthmarks are rare, and rarity affects a diamond’s value. Using the GIA International Diamond Grading System™, diamonds are assigned a clarity grade that ranges from flawless (FL) to diamonds with obvious inclusions (I3). <br><br> Every diamond is unique. None is absolutely perfect under 10× magnification, though some come close. Known as Flawless diamonds, these are exceptionally rare. Most jewelers have never even seen one.",
+        "chartSrc": "assets/images/buyers-guide/clarity-chart.jpeg"
+      },
+    {
+        "title": "Cut",
+        "imageSrc": "assets/images/buyers-guide/diamond.png",
+        "text": "Cut is the factor that fuels a diamond’s fire, sparkle and brilliance. The traditional 58 facets in a round brilliant diamond, each precisely cut and defined, are as small as two millimeters in diameter. But without this precision, a diamond wouldn’t be nearly as beautiful. The allure of a particular diamond depends more on cut than anything else. <br><br> An understanding of diamond cut begins with the shape of a diamond. The standard round brilliant is the shape used in most diamond jewelry. All others are known as fancy shapes. Traditional fancy shapes include the marquise, pear, oval and emerald cuts. Hearts, cushions, triangles and a variety of others are also gaining popularity in diamond jewelry.",
+        "chartSrc": "assets/images/buyers-guide/cut-chart.jpeg"
+    }
+    
+  ]
+  
+  

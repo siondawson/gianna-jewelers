@@ -7,6 +7,12 @@ body {
     
 }
 
+/* FONTS */
+
+.small-text {
+    font-size: 12px; /* Adjust the size as needed */
+  }
+
 .navbar {
     position: absolute;
     width: 100%;
@@ -107,7 +113,11 @@ body {
     background-color: #c1c1c1; /* Change to your desired color */
 }
 
+/* BUYERS GUIDE */
 
+.buyers-guide-card-img {
+    max-height: 150px;
+}
 
 
 /* FOOTER */
