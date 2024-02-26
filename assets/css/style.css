@@ -112,6 +112,11 @@ body {
 .navbar-home.opaque-background {
     background-color: #c1c1c1; /* Change to your desired color */
 }
+/* IMG CAROUSEL */
+
+#imageCarousel img {
+    
+}
 
 /* BUYERS GUIDE */
 
