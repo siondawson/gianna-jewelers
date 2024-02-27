@@ -13,6 +13,8 @@ body {
     font-size: 12px; /* Adjust the size as needed */
   }
 
+/* NAVBAR */
+
 .navbar {
     position: absolute;
     width: 100%;
@@ -56,6 +58,20 @@ body {
     max-width: 90%;
 }
 
+/* BORDERS */
+
+.border-thick {
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+    border-color: #A5A692;
+}
+
+.border-thick h4 {
+    padding-bottom: 0;
+    position: relative;
+    margin: 0 auto;
+}
 /* HOME PAGE CARDS */
 
 #product-cards-container .card {
@@ -99,8 +115,11 @@ body {
     margin: auto; /* Center the logo horizontally */
 }
 
-.service-list {
+/* ABOUT */
+
+#services-list {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .about-img {
