@@ -64,9 +64,103 @@
         </div>
     </div>
     <!-- END NAVBAR -->
-   <main>
-    
-   </main>
+    <main>
+      <div class="container py-5">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center pb-5">Wedding Bands</h2>
+              </div>
+          </div>
+          <!-- Women's Wedding Bands -->
+          <div class="row">
+              <div class="col-12 text-center">
+                  <h2>For Her</h2>
+                  <p>
+                      TEXT ABOUT WOMEN'S WEDDING BANDS Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id accusantium adipisci ad earum 
+                      quaerat est amet delectus? Animi aspernatur repellat ullam odit blanditiis, voluptate ad 
+                      libero provident magni. Quam, non!
+                  </p>
+              </div>
+          </div>
+          <!-- Carousel for Women's Wedding Bands (Medium Screens and Up) -->
+          <div class="container d-none d-md-block py-5">
+              <div id="imageCarouselWomen" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="carouselInnerWomen">
+                      <!-- Carousel items will be dynamically added here -->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselWomen" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselWomen" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <!-- Carousel for Women's Wedding Bands (Small Screens) -->
+          <div class="container d-sm-block d-md-none py-5">
+              <div id="imageCarouselSmallWomen" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="carouselInnerSmallWomen">
+                      <!-- Carousel items will be dynamically added here -->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselSmallWomen" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselSmallWomen" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <!-- Men's Wedding Bands -->
+          <div class="row">
+              <div class="col-12 text-center">
+                  <h2>
+                    For Him
+                  </h2>
+                  <p>
+                      TEXT ABOUT MEN'S WEDDING BANDS Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id accusantium adipisci ad earum 
+                      quaerat est amet delectus? Animi aspernatur repellat ullam odit blanditiis, voluptate ad 
+                      libero provident magni. Quam, non!
+                  </p>
+              </div>
+          </div>
+          <!-- Carousel for Men's Wedding Bands (Medium Screens and Up) -->
+          <div class="container d-none d-md-block py-5">
+              <div id="imageCarouselMen" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="carouselInnerMen">
+                      <!-- Carousel items will be dynamically added here -->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselMen" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselMen" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <!-- Carousel for Men's Wedding Bands (Small Screens) -->
+          <div class="container d-sm-block d-md-none py-5">
+              <div id="imageCarouselSmallMen" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="carouselInnerSmallMen">
+                      <!-- Carousel items will be dynamically added here -->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselSmallMen" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselSmallMen" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </main>
 
     <footer class="text-white text-center text-lg-start bg-dark">
       <div class="container p-4">
@@ -112,35 +206,65 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- JS -->
     <script>
-        // Fetch JSON data and dynamically generate carousel items
-        fetch('assets/json/necklaces.json')
+      // Fetch JSON data and dynamically generate carousel items for Women's Wedding Bands
+      fetch('assets/json/wedding-bands-women.json')
           .then(response => response.json())
           .then(data => {
-            // For medium and larger screens
-            var carouselInner = document.getElementById('carouselInner');
-            data.forEach(function(item, index) {
-              if (index % 3 === 0) {
-                var carouselItem = document.createElement('div');
-                carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
-                carouselItem.innerHTML = '<div class="row"></div>';
-                carouselInner.appendChild(carouselItem);
-              }
-              var currentRow = carouselInner.lastElementChild.querySelector('.row');
-              currentRow.innerHTML += '<div class="col-md-4"><img src="assets/images/necklaces/' + item.image + '" class="d-block w-100" alt="' + item.alt + '"></div>';
-            });
-      
-            // For small screens
-            var carouselInnerSmall = document.getElementById('carouselInnerSmall');
-            data.forEach(function(item, index) {
-              var carouselItem = document.createElement('div');
-              carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
-              carouselItem.innerHTML = '<img src="assets/images/necklaces/' + item.image + '" class="d-block w-100" alt="' + item.alt + '">';
-              carouselInnerSmall.appendChild(carouselItem);
-            });
+              // For medium and larger screens
+              var carouselInnerWomen = document.getElementById('carouselInnerWomen');
+              data.forEach(function(item, index) {
+                  if (index % 3 === 0) {
+                      var carouselItem = document.createElement('div');
+                      carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                      carouselItem.innerHTML = '<div class="row"></div>';
+                      carouselInnerWomen.appendChild(carouselItem);
+                  }
+                  var currentRow = carouselInnerWomen.lastElementChild.querySelector('.row');
+                  currentRow.innerHTML += '<div class="col-md-4"><img src="assets/images/wedding-bands-womens/' + item.image + '" class="d-block w-100 wedding-band-img" alt="' + item.alt + '"></div>';
+              });
+  
+              // For small screens
+              var carouselInnerSmallWomen = document.getElementById('carouselInnerSmallWomen');
+              data.forEach(function(item, index) {
+                  var carouselItem = document.createElement('div');
+                  carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                  carouselItem.innerHTML = '<img src="assets/images/wedding-bands-womens/' + item.image + '" class="d-block w-100 wedding-band-img" alt="' + item.alt + '">';
+                  carouselInnerSmallWomen.appendChild(carouselItem);
+              });
           })
-          .catch(error => console.error('Error fetching JSON:', error));
-      </script>
+          .catch(error => console.error('Error fetching JSON for Women\'s Wedding Bands:', error));
+  
+      // Fetch JSON data and dynamically generate carousel items for Men's Wedding Bands
+      fetch('assets/json/wedding-bands-men.json')
+          .then(response => response.json())
+          .then(data => {
+              // For medium and larger screens
+              var carouselInnerMen = document.getElementById('carouselInnerMen');
+              data.forEach(function(item, index) {
+                  if (index % 3 === 0) {
+                      var carouselItem = document.createElement('div');
+                      carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                      carouselItem.innerHTML = '<div class="row"></div>';
+                      carouselInnerMen.appendChild(carouselItem);
+                  }
+                  var currentRow = carouselInnerMen.lastElementChild.querySelector('.row');
+                  currentRow.innerHTML += '<div class="col-md-4"><img src="assets/images/wedding-bands-mens/' + item.image + '" class="d-block w-100 wedding-band-img" alt="' + item.alt + '"></div>';
+              });
+  
+              // For small screens
+              var carouselInnerSmallMen = document.getElementById('carouselInnerSmallMen');
+              data.forEach(function(item, index) {
+                  var carouselItem = document.createElement('div');
+                  carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+                  carouselItem.innerHTML = '<img src="assets/images/wedding-bands-mens/' + item.image + '" class="d-block w-100 wedding-band-img" alt="' + item.alt + '">';
+                  carouselInnerSmallMen.appendChild(carouselItem);
+              });
+          })
+          .catch(error => console.error('Error fetching JSON for Men\'s Wedding Bands:', error));
+  </script>
+  
 
     <script src="assets/js/opaque-bg.js"></script>
 </body>
