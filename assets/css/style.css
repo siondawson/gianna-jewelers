@@ -16,6 +16,14 @@ body {
     font-size: 12px; /* Adjust the size as needed */
   }
 
+/* bg-color-classes */
+
+.beige-gradient-bg {
+    background: #F2EFE9;
+    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
+}
+
 /* BUTTONS */
 
 .btn-primary {
@@ -105,7 +113,7 @@ body {
 .border-thick {
     border-width: 10px;
     border-style: solid;
-    padding: 20px;
+    padding: 10px;
     border-color: #A5A692;
 }
 
@@ -157,11 +165,23 @@ body {
     margin: auto; /* Center the logo horizontally */
 }
 
+/* home page */
+
+.homepage-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+}
+
 /* ABOUT */
 
 #services-list {
     list-style-type: none;
     padding-left: 0;
+    position: relative;
+    margin: 0 auto;
 }
 
 .about-img {
@@ -261,8 +281,20 @@ body {
 
 /* BUYERS GUIDE */
 
+
 .buyers-guide-card-img {
-    max-height: 150px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+#gemstones ul.timeline,
+#gemstones ul.timeline .timeline-item {
+    background-color: transparent !important;
+}
+
+#gemstones .timeline-item {
+    background-color: transparent;
 }
 
 ul.timeline {
@@ -314,10 +346,11 @@ li.timeline-item::before {
 }
 
 #buyers-guide-intro {
-    background: #FDF6F0;
-    background: -webkit-linear-gradient(to right, #FDF6F0, #F8B500);
-    background: linear-gradient(to right, #FDF6F0, #F8B500);
+    background: #fafafa;
+    
 }
+
+
 
 
 #diamonds {
@@ -327,22 +360,42 @@ li.timeline-item::before {
 }
 
 #gemstones {
-    background: #E8CBC0;
-    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
-    background: linear-gradient(to right, #E8CBC0, #636FA4);
+    background: #d1d1d1;
+    background: -webkit-linear-gradient(to right, #d1d1d1, #F2F2F2);
+    background: linear-gradient(to right, #d1d1d1, #F2F2F2);
 }
 
 #birthstones {
-    background: #C8E6C9;
-    background: -webkit-linear-gradient(to right, #C8E6C9, #81C784);
-    background: linear-gradient(to right, #C8E6C9, #81C784);
+    background: #F2EFE9;
+    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
 }
 
 #anniversary {
-    background: #FAD02E;
-    background: -webkit-linear-gradient(to right, #FAD02E, #F79E1B);
-    background: linear-gradient(to right, #FAD02E, #F79E1B);
+    background: #d1d1d1;
+    background: -webkit-linear-gradient(to right, #d1d1d1, #F2F2F2);
+    background: linear-gradient(to right, #d1d1d1, #F2F2F2);
 }
+
+.accordion-item {
+    background-color: transparent !important;
+    border: 1px solid #000; /* Adjust the color and width as needed */
+    border-radius: 0; /* Optional: add border radius for rounded corners */
+}
+
+.accordion-button {
+    background-color: transparent !important;
+}
+
+.accordion-body {
+    background-color: #565656;
+    color: #fafafa;
+    
+    border-radius: 0; /* Optional: add border radius for rounded corners */
+}
+
+
+
 
 
 
