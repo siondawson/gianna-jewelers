@@ -19,9 +19,9 @@ body {
 /* bg-color-classes */
 
 .beige-gradient-bg {
-    background: #F2EFE9;
-    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
-    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: #e6ddd9;
+    background: -webkit-linear-gradient(to right, #e6ddd9, #fafafa);
+    background: linear-gradient(to right, #e6ddd9, #fafafa);
 }
 
 /* BUTTONS */
@@ -346,7 +346,7 @@ li.timeline-item::before {
 }
 
 #buyers-guide-intro {
-    background: #fafafa;
+    background: #f9ede8;
     
 }
 
@@ -354,27 +354,27 @@ li.timeline-item::before {
 
 
 #diamonds {
-    background: #F2EFE9;
-    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
-    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: #e6ddd9;
+    background: -webkit-linear-gradient(to right, #e6ddd9, #fafafa);
+    background: linear-gradient(to right, #e6ddd9, #fafafa);
 }
 
 #gemstones {
-    background: #d1d1d1;
-    background: -webkit-linear-gradient(to right, #d1d1d1, #F2F2F2);
-    background: linear-gradient(to right, #d1d1d1, #F2F2F2);
+    background: #ded4cb;
+    background: -webkit-linear-gradient(to right, #ded4cb, #fafafa);
+    background: linear-gradient(to right, #ded4cb, #fafafa);
 }
 
 #birthstones {
-    background: #F2EFE9;
-    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
-    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: #e6ddd9;
+    background: -webkit-linear-gradient(to right, #e6ddd9, #fafafa);
+    background: linear-gradient(to right, #e6ddd9, #fafafa);
 }
 
 #anniversary {
-    background: #d1d1d1;
-    background: -webkit-linear-gradient(to right, #d1d1d1, #F2F2F2);
-    background: linear-gradient(to right, #d1d1d1, #F2F2F2);
+    background: #ded4cb;
+    background: -webkit-linear-gradient(to right, #ded4cb, #fafafa);
+    background: linear-gradient(to right, #ded4cb, #fafafa);
 }
 
 .accordion-item {
@@ -425,7 +425,7 @@ li.timeline-item::before {
 .footer-logo {
     max-height: 80px;
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: block;
 }
 
