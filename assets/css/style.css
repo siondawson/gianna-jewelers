@@ -285,6 +285,13 @@ li.timeline-item::before {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+#buyers-guide-intro {
+    background: #FDF6F0;
+    background: -webkit-linear-gradient(to right, #FDF6F0, #F8B500);
+    background: linear-gradient(to right, #FDF6F0, #F8B500);
+}
+
+
 #diamonds {
     background: #F2EFE9;
     background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
