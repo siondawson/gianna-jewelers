@@ -285,15 +285,40 @@ li.timeline-item::before {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+#diamonds {
+    background: #F2EFE9;
+    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
+    background: linear-gradient(to right, #F2EFE9, #D3C0A7);
+}
+
 #gemstones {
     background: #E8CBC0;
     background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
     background: linear-gradient(to right, #E8CBC0, #636FA4);
-    min-height: 100vh;
 }
+
+#birthstones {
+    background: #C8E6C9;
+    background: -webkit-linear-gradient(to right, #C8E6C9, #81C784);
+    background: linear-gradient(to right, #C8E6C9, #81C784);
+}
+
+#anniversary {
+    background: #FAD02E;
+    background: -webkit-linear-gradient(to right, #FAD02E, #F79E1B);
+    background: linear-gradient(to right, #FAD02E, #F79E1B);
+}
+
+
 
 .text-gray {
     color: #999;
+}
+
+.anniversary-list {
+    margin-bottom: 0;
+    list-style-type: none;
+
 }
 
 /* CONTACT */
