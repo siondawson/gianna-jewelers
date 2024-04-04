@@ -196,11 +196,6 @@ body {
 
 /* SERVICES */
 
-#services {
-    background: #F2EFE9;
-    background: -webkit-linear-gradient(to right, #F2EFE9, #D3C0A7);
-    background: linear-gradient(to right, #F2EFE9, #D3C0A7);   
-}
 
 .service-img {
     width: 300px; /* Adjust as needed */
