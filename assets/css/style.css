@@ -191,7 +191,9 @@ body {
 
 
 .navbar-home.opaque-background {
-    background-color: #e6ddd9; 
+    background: #e6ddd9;
+    background: -webkit-linear-gradient(to right, #e6ddd9, #fafafa);
+    background: linear-gradient(to right, #e6ddd9, #fafafa); 
 }
 
 /* SERVICES */
