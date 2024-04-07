@@ -403,9 +403,8 @@ li.timeline-item::before {
 /* WATCHES */
 
 .watch-img {
-    width: 75%; /* Adjust this width as needed */
-    max-width: 100%; /* Ensure image does not exceed container width */
-    height: auto; /* Allow height to adjust proportionally based on width */
+    width: 300px;
+    height: auto; /* Ensures aspect ratio is maintained */
 }
 
 #photos {
