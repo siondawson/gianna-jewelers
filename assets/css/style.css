@@ -390,10 +390,6 @@ li.timeline-item::before {
 }
 
 
-
-
-
-
 .text-gray {
     color: #999;
 }
@@ -402,6 +398,43 @@ li.timeline-item::before {
     margin-bottom: 0;
     list-style-type: none;
 
+}
+
+/* WATCHES */
+
+.watch-img {
+    width: 75%; /* Adjust this width as needed */
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Allow height to adjust proportionally based on width */
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100%
+}
+/* sm screens and up */
+@media screen and (min-width: 576px){ 
+    #photos{
+        column-count: 1;
+    }
+}
+/* md screens and up */
+@media screen and (min-width: 768px){
+    #photos{
+        column-count: 2;
+    }
+}
+/* lg screens and up */
+@media screen and (min-width: 992px){
+    #photos{
+        column-count: 3;
+    }
 }
 
 /* CONTACT */
