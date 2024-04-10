@@ -492,3 +492,13 @@ li.timeline-item::before {
     color: #fff;
     
 }
+
+.disclaimer {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.disclaimer:hover {
+    text-decoration: underline;
+    color: #fafafa;
+}
