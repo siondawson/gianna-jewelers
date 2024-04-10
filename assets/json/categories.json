@@ -1,10 +1,10 @@
 [
-  {"title": "Watches", "image": "assets/images/watches/tissot-watch.jpg", "link": "watches.html"},
-  {"title": "Engagement Rings", "image": "assets/images/engagement-rings/ring-5955466_1280.jpg", "link": "engagement-rings.html"},
+  {"title": "Engagement Rings", "image": "assets/images/engagement-rings/engagement5.jpeg", "link": "engagement-rings.html"},
   {"title": "Wedding Bands", "image": "assets/images/wedding-bands-womens/wedding-rings.jpg", "link": "wedding-bands.html"},
-  {"title": "Necklaces", "image": "assets/images/necklaces/necklacesquare4.jpg", "link": "necklaces.html"},
   {"title": "Fashion Rings", "image": "assets/images/fashion-rings/ringsquare1.jpg", "link": "fashion-rings.html"},
-  {"title": "Earrings", "image": "assets/images/earrings/earringsquare1.jpg", "link": "earrings.html"}
+  {"title": "Necklaces", "image": "assets/images/necklaces/necklacesquare4.jpg", "link": "necklaces.html"},
+  {"title": "Earrings", "image": "assets/images/earrings/earringsquare1.jpg", "link": "earrings.html"},
+  {"title": "Watches", "image": "assets/images/watches/tissot-watch.jpg", "link": "watches.html"}
 ]
 
   

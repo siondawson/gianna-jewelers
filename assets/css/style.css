@@ -200,8 +200,8 @@ body {
 
 
 .service-img {
-    width: 300px; /* Adjust as needed */
-    height: 300px; /* Adjust as needed */
+    width: 350px; /* Adjust as needed */
+    height: 350px; /* Adjust as needed */
     border-radius: 50%;
     overflow: hidden;
     display: flex;
