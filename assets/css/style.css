@@ -216,6 +216,28 @@ body {
     object-fit: cover; /* Ensure the image covers the container */
 }
 
+/* BACK TO TOP BTN */
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #back-to-top-btn:hover {
+    background-color: #555;
+  }
+
 
 
 /* IMG CAROUSEL */
