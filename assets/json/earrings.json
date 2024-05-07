@@ -4,10 +4,6 @@
       "alt": "Earring 1"
     },
     {
-      "image": "earringsquare2.jpg",
-      "alt": "Earring 2"
-    },
-    {
       "image": "Image8.jpeg",
       "alt": "Earring Image"
     },
@@ -32,8 +28,40 @@
       "alt": "Earring 7"
     },
     {
-      "image": "earringsquare8.jpg",
-      "alt": "Earring 8"
+      "image": "stock-earring-1.JPG",
+      "alt": "Stock Earring 1"
+    },
+    {
+      "image": "stock-earring-2.JPG",
+      "alt": "Stock Earring 2"
+    },
+    {
+      "image": "stock-earring-3.JPG",
+      "alt": "Stock Earring 4"
+    },
+    {
+      "image": "stock-earring-4.JPG",
+      "alt": "Stock Earring 4"
+    },
+    {
+      "image": "stock-earring-5.JPG",
+      "alt": "Stock Earring 5"
+    },
+    {
+      "image": "stock-earring-6.JPG",
+      "alt": "Stock Earring 6"
+    },
+    {
+      "image": "stock-earring-7.JPG",
+      "alt": "Stock Earring 7"
+    },
+    {
+      "image": "stock-earring-8.JPG",
+      "alt": "Stock Earring 8"
+    },
+    {
+      "image": "stock-earring-9.JPG",
+      "alt": "Stock Earring 9"
     }
   ]
   
