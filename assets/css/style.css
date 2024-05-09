@@ -297,6 +297,16 @@ body {
     max-height: calc(100vh - 120px);
 }
 
+/* BRACELETS */
+
+.mens-bracelet-img-container {
+    text-align: center; /* Center align the images horizontally */
+}
+
+.mens-bracelet-img-container img {
+    display: block; /* Make the images block elements */
+    margin: 0 auto; /* Center the images horizontally */
+}
 
 /* BUYERS GUIDE */
 
