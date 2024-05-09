@@ -306,6 +306,7 @@ body {
 .mens-bracelet-img-container img {
     display: block; /* Make the images block elements */
     margin: 0 auto; /* Center the images horizontally */
+    max-width: 100%;
 }
 
 /* BUYERS GUIDE */
