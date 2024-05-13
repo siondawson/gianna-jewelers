@@ -314,7 +314,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum width as needed */
     grid-auto-rows: auto; /* Ensure rows adjust based on content */
-    grid-gap: 0; /* Set the gap between images to 0 */
+    grid-gap: 10px; /* Set the gap between images to 0 */
 }
 
 .womens-bracelet-img-container img {
