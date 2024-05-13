@@ -246,20 +246,6 @@ body {
     
 }
 
-/* Square images for the carousels */
-.carousel .carousel-item img {
-    width: 100%;
-    height: 100%; /* Set the height equal to the width */
-    object-fit: cover; /* Ensure the image covers the container */
-    border-radius: 5px;
-}
-
-/* Ensure square images for the small screens carousel */
-#imageCarouselSmall .carousel-item img {
-    width: 100%;
-    height: 100%; /* Set the height equal to the width */
-    object-fit: cover; /* Ensure the image covers the container */
-}
 
 /* SERVICES */
 
@@ -322,6 +308,58 @@ body {
     display: block; /* Make the images block elements */
     margin: 0 auto; /* Center the images horizontally */
     max-width: 100%;
+}
+
+.womens-bracelet-img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum width as needed */
+    grid-auto-rows: auto; /* Ensure rows adjust based on content */
+    grid-gap: 0; /* Set the gap between images to 0 */
+}
+
+.womens-bracelet-img-container img {
+    width: 100%;
+    height: 100%; /* Ensure images fill their grid cells */
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.womens-bracelet-img-container img:hover {
+    transform: scale(1.05); /* Scale up the image slightly on hover */
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img {
+    width: 50%;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+    .full-img img {
+        width: 90%;
+        max-width: none; /* Reset max-width */
+    }
+}
+
+.full-img span { 
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 /* BUYERS GUIDE */
