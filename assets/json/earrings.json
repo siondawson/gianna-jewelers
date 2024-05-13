@@ -1,67 +1,68 @@
 [
-    {
-      "image": "earringsquare1.jpg",
-      "alt": "Earring 1"
-    },
-    {
-      "image": "Image8.jpeg",
-      "alt": "Earring Image"
-    },
-    {
-      "image": "earringsquare3.jpg",
-      "alt": "Earring 3"
-    },
-    {
-      "image": "earringsquare4.jpg",
-      "alt": "Earring 4"
-    },
-    {
-      "image": "earringsquare5.jpg",
-      "alt": "Earring 5"
-    },
-    {
-      "image": "earringsquare6.jpg",
-      "alt": "Earring 6"
-    },
-    {
-      "image": "earringsquare7.jpg",
-      "alt": "Earring 7"
-    },
-    {
-      "image": "stock-earring-1.JPG",
-      "alt": "Stock Earring 1"
-    },
-    {
-      "image": "stock-earring-2.JPG",
-      "alt": "Stock Earring 2"
-    },
-    {
-      "image": "stock-earring-3.JPG",
-      "alt": "Stock Earring 4"
-    },
-    {
-      "image": "stock-earring-4.JPG",
-      "alt": "Stock Earring 4"
-    },
-    {
-      "image": "stock-earring-cropped-5.JPG",
-      "alt": "Stock Earring 5"
-    },
-    {
-      "image": "stock-earring-cropped-6.JPG",
-      "alt": "Stock Earring 6"
-    },
-    {
-      "image": "stock-earring-cropped-7.JPG",
-      "alt": "Stock Earring 7"
-    },
-    {
-      "image": "stock-earring-8.JPG",
-      "alt": "Stock Earring 8"
-    },
-    {
-      "image": "stock-earring-cropped-9.JPG",
-      "alt": "Stock Earring 9"
-    }
+  {
+    "image": "stock-earring-1.JPG",
+    "alt": "Stock Earring 1"
+  },
+  {
+    "image": "stock-earring-2.JPG",
+    "alt": "Stock Earring 2"
+  },
+  {
+    "image": "stock-earring-3.JPG",
+    "alt": "Stock Earring 4"
+  },
+  {
+    "image": "stock-earring-4.JPG",
+    "alt": "Stock Earring 4"
+  },
+  {
+    "image": "stock-earring-cropped-5.JPG",
+    "alt": "Stock Earring 5"
+  },
+  {
+    "image": "stock-earring-cropped-6.JPG",
+    "alt": "Stock Earring 6"
+  },
+  {
+    "image": "stock-earring-cropped-7.JPG",
+    "alt": "Stock Earring 7"
+  },
+  {
+    "image": "stock-earring-8.JPG",
+    "alt": "Stock Earring 8"
+  },
+  {
+    "image": "stock-earring-cropped-9.JPG",
+    "alt": "Stock Earring 9"
+  },
+  {
+    "image": "earringsquare1.jpg",
+    "alt": "Earring 1"
+  },
+  {
+    "image": "Image8.jpeg",
+    "alt": "Earring Image"
+  },
+  {
+    "image": "earringsquare3.jpg",
+    "alt": "Earring 3"
+  },
+  {
+    "image": "earringsquare4.jpg",
+    "alt": "Earring 4"
+  },
+  {
+    "image": "earringsquare5.jpg",
+    "alt": "Earring 5"
+  },
+  {
+    "image": "earringsquare6.jpg",
+    "alt": "Earring 6"
+  },
+  {
+    "image": "earringsquare7.jpg",
+    "alt": "Earring 7"
+  }
+    
   ]
   
