@@ -1,38 +1,33 @@
-const form = document.getElementById('contact-form');
-const result = document.getElementById('result');
+function sendEmail(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
 
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const formData = new FormData(form);
-  const object = Object.fromEntries(formData);
-  const json = JSON.stringify(object);
-  result.innerHTML = "Sending email..."
+    var params = {
+        name: document.getElementById("name").value,
+        contact_number: document.getElementById("contact-number").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
 
-    fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: json
-        })
-        .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                result.innerHTML = json.message;
-            } else {
-                console.log(response);
-                result.innerHTML = json.message;
+    const serviceID = "service_qfwwcsl";
+    const templateID = "GiannaJewelers";
+
+    emailjs
+        .send(serviceID, templateID, params)
+        .then(
+            res => {
+                document.getElementById("contact-form").innerHTML = `
+                    <h2>Thankyou! Message Sent</h2>
+                    <p>Your message sent successfully. If no reply within 24 hours, please check your spam!</p>
+                    <a href="index.html" class="btn btn-primary">Home Page</a>
+                `;
+                console.log(res);
             }
-        })
-        .catch(error => {
-            console.log(error);
-            result.innerHTML = "Something went wrong!";
-        })
-        .then(function() {
-            form.reset();
-            setTimeout(() => {
-                result.style.display = "none";
-            }, 10000);
+        )
+        .catch((err) => {
+            console.error(err);
+            document.getElementById("contact-form").innerHTML = `
+                <h2>Error</h2>
+                <p>There was an error sending your message. Please try again later.</p>
+            `;
         });
-});
+}
