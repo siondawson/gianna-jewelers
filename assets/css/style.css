@@ -393,9 +393,9 @@ body {
 
 .mens-gallery img:hover {
     transform: scale(1.25); 
-    border-color: #000;
+    /* border-color: #000;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px; */
 }
 /* sm screens and up */
 @media screen and (min-width: 576px){ 
