@@ -1,16 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // COMMENTED OUT CODE IS FOR DYNAMICALLY ADDING PRODUCT CARDS FROM categories.json. DECIDED TO HARD CODE INSTEAD FOR EASE.
     // Fetch product data
-    fetch("assets/json/categories.json")
-        .then(response => response.json())
-        .then(data => {
-            const productCardsContainer = document.getElementById("product-cards-container");
+    // fetch("assets/json/categories.json")
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         const productCardsContainer = document.getElementById("product-cards-container");
 
-            data.forEach(product => {
-                const card = createCard(product);
-                productCardsContainer.appendChild(card);
-            });
-        })
-        .catch(error => console.error("Error fetching product data:", error));
+    //         data.forEach(product => {
+    //             const card = createCard(product);
+    //             productCardsContainer.appendChild(card);
+    //         });
+    //     })
+    //     .catch(error => console.error("Error fetching product data:", error));
 
     // Fetch brand logos data
     fetch("assets/json/logos.json") // Updated file path
@@ -26,26 +27,26 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("Error fetching brand logos data:", error));
 
     // Function to create a product card
-    function createCard(product) {
-        const card = document.createElement("div");
-        card.classList.add("col-12", "col-md-6", "col-lg-4", "mb-4");
+    // function createCard(product) {
+    //     const card = document.createElement("div");
+    //     card.classList.add("col-12", "col-md-6", "col-lg-4", "mb-4");
 
         // Check if a link is provided in the JSON data
-        const cardLink = product.link ? `href="${product.link}"` : 'href="#"';
+    //     const cardLink = product.link ? `href="${product.link}"` : 'href="#"';
 
-        card.innerHTML = `
-            <a ${cardLink} class="card-link">
-                <div class="card">
-                    <img src="${product.image}" class="card-img-top" alt="${product.title}">
-                    <div class="card-body">
-                        <h5 class="card-title">${product.title}</h5>
-                    </div>
-                </div>
-            </a>
-        `;
+    //     card.innerHTML = `
+    //         <a ${cardLink} class="card-link">
+    //             <div class="card">
+    //                 <img src="${product.image}" class="card-img-top" alt="${product.title}">
+    //                 <div class="card-body">
+    //                     <h5 class="card-title">${product.title}</h5>
+    //                 </div>
+    //             </div>
+    //         </a>
+    //     `;
 
-        return card;
-    }
+    //     return card;
+    // }
 
     // Function to create a brand logo. logos on bottom of home screen about footer.
     function createLogo(logo) {

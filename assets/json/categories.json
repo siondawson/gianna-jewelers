@@ -4,7 +4,9 @@
   {"title": "Fashion Rings", "image": "assets/images/fashion-rings/ringsquare4.jpg", "link": "fashion-rings.html"},
   {"title": "Necklaces", "image": "assets/images/necklaces/necklacesquare4.jpg", "link": "necklaces.html"},
   {"title": "Earrings", "image": "assets/images/earrings/stock-earring-2.jpg", "link": "earrings.html"},
-  {"title": "Watches", "image": "assets/images/watches/tissot-watch.jpg", "link": "watches.html"}
+  {"title": "Bracelets", "image": "assets/images/bracelets-womens/bracelet-womens-6.jpeg", "link": "earrings.html"},
+  {"title": "Watches", "image": "assets/images/watches/tissot-watch.jpg", "link": "watches.html"},
+  {"title": "Mens", "image": "assets/images/mens-jewelry/menscovers-cropped.jpeg", "link": "earrings.html"}
 ]
 
   

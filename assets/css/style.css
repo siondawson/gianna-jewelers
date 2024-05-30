@@ -246,6 +246,13 @@ body {
     
 }
 
+.carousel-item img {
+    width: 100%; /* Make sure the image takes up the full width of its container */
+    height: 300px; /* Fixed height to ensure a square aspect ratio (adjust as needed) */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+
 
 /* SERVICES */
 

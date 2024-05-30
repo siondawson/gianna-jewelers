@@ -1,9 +1,5 @@
 [
     {
-      "image": "necklacesquare1.jpg",
-      "alt": "Necklace 1"
-    },
-    {
         "image": "necklacesquare2.jpg",
         "alt": "Necklace 2"
     },
@@ -24,20 +20,12 @@
         "alt": "Necklace 6"
     },
     {
-        "image": "necklacesquare7.jpg",
-        "alt": "Necklace 7"
-    },
-    {
         "image": "necklacesquare8.jpg",
         "alt": "Necklace 8"
     },
     {
         "image": "necklacesquare9.jpg",
         "alt": "Necklace 9"
-    },
-    {
-        "image": "necklacesquare10.jpg",
-        "alt": "Necklace 10"
     },
     {
         "image": "necklacesquare11.jpg",

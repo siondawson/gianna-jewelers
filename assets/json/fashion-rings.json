@@ -4,10 +4,6 @@
         "alt": "Ring 1"
     },
     {
-        "image": "ringsquare2.jpg",
-        "alt": "Ring 2"
-    },
-    {
         "image": "ringsquare3.jpg",
         "alt": "Ring 3"
     },
@@ -20,6 +16,10 @@
         "alt": "Ring 5"
     },
     {
+        "image": "fashion-ring-stock-2.jpg",
+        "alt": "Fashion Ring Stock 2"
+    },
+    {
         "image": "ringsquare6.jpg",
         "alt": "Ring 6"
     },
@@ -28,8 +28,16 @@
         "alt": "Ring 7"
     },
     {
-        "image": "ringsquare8.jpg",
-        "alt": "Ring 8"
+        "image": "fashion-ring-stock-1.jpg",
+        "alt": "Ring 7"
+    },
+    {
+        "image": "fashion-ring-stock-3.jpg",
+        "alt": "Fashion Ring Stock 3"
+    },
+    {
+        "image": "fashion-ring-stock-4.jpg",
+        "alt": "Fashion Ring Stock 4"
     },
     {
         "image": "ringsquare9.jpg",
