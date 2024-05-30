@@ -28,10 +28,6 @@
         "alt": "Ring 7"
     },
     {
-        "image": "fashion-ring-stock-1.jpg",
-        "alt": "Ring 7"
-    },
-    {
         "image": "fashion-ring-stock-3.jpg",
         "alt": "Fashion Ring Stock 3"
     },
@@ -42,5 +38,9 @@
     {
         "image": "ringsquare9.jpg",
         "alt": "Ring 9"
+    },
+    {
+        "image": "fashion-ring-stock-5.jpg",
+        "alt": "Fashion Ring Stock 5"
     }
 ]
