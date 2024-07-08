@@ -1,0 +1,13 @@
+/* FADE IN */
+
+/* Initial hidden state and transitions */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  /* When in view */
+  .fade-in.in-view {
+    opacity: 1;
+  }
+  
