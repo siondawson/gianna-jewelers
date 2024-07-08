@@ -67,7 +67,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh; /* 30% of the viewport height */
+    height: 35vh; /* 30% of the viewport height */
     /* position: absolute; */
     width: 100%;
     z-index: -1; /* Set z-index to -1 to place it behind the navbar */
